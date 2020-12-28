@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #fbf7f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding: 5rem 0;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.counter {
+  text-align: center;
+}
+
+.counter h3 {
+  padding: 0.5rem 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.counter h6 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.icon {
+  height: 5rem;
+  width: auto;
+}
